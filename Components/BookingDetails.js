@@ -9,7 +9,17 @@ const BookingDetails = () => (
       Date: ['Mon, 26 Jul 2024'],
       Time: ['09:00 AM'],
       Duration: ['30 Minutes'],
-      Status: ['Upcoming', {backgroundColor: 'lavender', color: 'purple'}],
+      Status: [
+        'Upcoming',
+        {
+          backgroundColor: 'lavender',
+          color: 'purple',
+          width: 70,
+          paddingLeft: 'none',
+          marginLeft: 20,
+          borderRadius: 5,
+        },
+      ],
     }}
   />
 );
